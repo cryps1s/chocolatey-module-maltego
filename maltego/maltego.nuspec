@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>maltego</id>
+    <version>4.1.0.10552</version>
+    <packageSourceUrl>https://github.com/cryps1s/chocolatey-module-maltego</packageSourceUrl>
+    <owners>cryps1s</owners>
+    <title>maltego (Install)</title>
+    <authors>Paterva</authors>
+    <projectUrl>https://www.paterva.com/web7/buy/maltego-clients.php</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/maltego.png</iconUrl>-->
+    <copyright>2017 Paterva</copyright>
+    <licenseUrl>https://www.paterva.com/web7/license-agreement.php</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://www.paterva.com/web7/docs.php</docsUrl>
+    <tags>maltego</tags>
+    <summary>Maltego is an interactive data mining tool that renders directed graphs for link analysis.</summary>
+    <description>Maltego is an interactive data mining tool that renders directed graphs for link analysis.</description>
+    <dependencies>
+      <dependency id="jre8"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
